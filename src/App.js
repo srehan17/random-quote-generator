@@ -19,12 +19,12 @@ const App = () => {
   return (
     <div className="app">
       <div id="quote-box">
-        <div id="text" style={{fontSize: 20, fontWeight: 600}}>Random Quote</div>
+        <div id="text" style={{fontSize: 20, fontWeight: 600}}>Random Quote Generator</div>
         <div className="quoteContainer" style={{height: 100}}>
-          <div id="quote" >{randomQuoteAndAuthor[0]}</div>
+          <div id="quote" style={{fontSize: 17}}>{randomQuoteAndAuthor[0]}</div>
           <div id="author" style={{fontSize: 16, fontWeight: 400, marginTop: 20}}>by {randomQuoteAndAuthor[1]}</div>
         </div>
-        <button onClick={handleGenerateNewQuoteClick} id="new-quote">Generate New Quote</button>
+        <button onClick={handleGenerateNewQuoteClick} id="new-quote">Get New Quote</button>
         <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote">Tweet Quote</a>
       </div>
     </div>

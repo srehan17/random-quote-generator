@@ -13,6 +13,10 @@
       "author": "Oscar Wilde"
     },
     {
+      "quote":"An unexamined life is not worth living.",
+      "author":"Socrates"
+    },
+    {
       "quote": "In three words I can sum up everything I've learned about life: it goes on.",
       "author": "Robert Frost"
     },
@@ -33,6 +37,10 @@
       "author": "Abraham Lincoln"
     },
     {
+      "quote":"The two most important days in your life are the day you are born and the day you find out why.",
+      "author":"Mark Twain"
+    },
+    {
       "quote": "Life is never fair, and perhaps it is a good thing for most of us that it is not.",
       "author": "Oscar Wilde"
     },
@@ -47,6 +55,38 @@
     {
       "quote": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
       "author": "Robert Louis Stevenson"
+    },
+    {
+      "quote":"I am not a product of my circumstances. I am a product of my decisions.",
+      "author":"Stephen Covey"
+    },
+    {
+      "quote":"Life isn't about getting and having, it's about giving and being.",
+      "author":"Kevin Kruse"
+    },
+    {
+      "quote":"Every strike brings me closer to the next home run.",
+      "author":"Babe Ruth"
+    },
+    {
+      "quote":"Winning isn’t everything, but wanting to win is.",
+      "author":"Vince Lombardi"
+    },
+    {
+      "quote":"Life is 10% what happens to me and 90% of how I react to it.",
+      "author":"Charles Swindoll"
+    },
+    {
+      "quote":"Life is what happens to you while you’re busy making other plans.",
+      "author":"John Lennon"
+    },
+    {
+      "quote":"Strive not to be a success, but rather to be of value.",
+      "author":"Albert Einstein"
+    },
+    {
+      "quote":"Whatever the mind of man can conceive and believe, it can achieve.",
+      "author":"Napoleon Hill"
     }
   ]
 }
