@@ -4,8 +4,9 @@ import "./App.css"
 
 const App = () => {
 
-  const handleGenerateNewQuoteClick = () => { console.log('click')
-  window.location.reload()  }
+  const refresh = () => {
+    window.location.reload(false)
+  }
 
   const randomQuoteAndAuthor = useMemo ( () => {
     const dataLength = data.data.length
@@ -13,8 +14,7 @@ const App = () => {
     const quote = JSON.stringify(data.data[randomIndex].quote)
     const author = JSON.stringify(data.data[randomIndex].author).replace(/"/g, "")
     return [quote, author]
-  })
-
+  }, [])
 
   return (
     <div className="app">
@@ -24,8 +24,8 @@ const App = () => {
           <div id="quote" style={{fontSize: 17}}>{randomQuoteAndAuthor[0]}</div>
           <div id="author" style={{fontSize: 16, fontWeight: 400, marginTop: 20}}>by {randomQuoteAndAuthor[1]}</div>
         </div>
-        <button onClick={handleGenerateNewQuoteClick} id="new-quote">Get New Quote</button>
-        <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote">Tweet Quote</a>
+        <button onClick={refresh} style={{fontWeight: 600, width: 150}} id="new-quote">Get New Quote</button>
+        <button style={{width: 150}}><a style={{fontWeight: 600}} href={`https://twitter.com/intent/tweet?text=${randomQuoteAndAuthor.join(" ")}`} target="_blank" id="tweet-quote">Tweet Quote</a></button>
       </div>
     </div>
   )

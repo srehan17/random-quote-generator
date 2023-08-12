@@ -24,3 +24,22 @@ button {
     background-color: whitesmoke;
     font-size: 16px;
 }
+
+button:hover {
+    background-color: #CCC;
+    /* cursor: pointer; */
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: black
+}
