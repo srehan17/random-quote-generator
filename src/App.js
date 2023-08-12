@@ -3,9 +3,9 @@ import data from "./data/data.json"
 import "./App.css"
 
 const App = () => {
-
+  
   const refresh = () => {
-    window.location.reload(false)
+    window.location.reload()
   }
 
   const randomQuoteAndAuthor = useMemo ( () => {
