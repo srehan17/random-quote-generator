@@ -1,4 +1,4 @@
-# Deployed on: https://srehan17.github.io/random-quote-generator
+## Deployed on: https://srehan17.github.io/random-quote-generator
 
 # Getting Started with Create React App
 
